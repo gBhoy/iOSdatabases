@@ -16,6 +16,7 @@
 		DDFC17BA25A22C980053DCB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFC17B825A22C980053DCB3 /* LaunchScreen.storyboard */; };
 		DDFC17C525A22C980053DCB3 /* iOSdatabasesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFC17C425A22C980053DCB3 /* iOSdatabasesTests.swift */; };
 		DDFC17D025A22C980053DCB3 /* iOSdatabasesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFC17CF25A22C980053DCB3 /* iOSdatabasesUITests.swift */; };
+		DDFC17E125A22DBB0053DCB3 /* data in Resources */ = {isa = PBXBuildFile; fileRef = DDFC17E025A22DBA0053DCB3 /* data */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DDFC17CB25A22C980053DCB3 /* iOSdatabasesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSdatabasesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDFC17CF25A22C980053DCB3 /* iOSdatabasesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSdatabasesUITests.swift; sourceTree = "<group>"; };
 		DDFC17D125A22C980053DCB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFC17E025A22DBA0053DCB3 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		DDFC17A925A22C960053DCB3 /* iOSdatabases */ = {
 			isa = PBXGroup;
 			children = (
+				DDFC17E025A22DBA0053DCB3 /* data */,
 				DDFC17AA25A22C960053DCB3 /* AppDelegate.swift */,
 				DDFC17AC25A22C960053DCB3 /* SceneDelegate.swift */,
 				DDFC17AE25A22C960053DCB3 /* ViewController.swift */,
@@ -236,6 +239,7 @@
 			files = (
 				DDFC17BA25A22C980053DCB3 /* LaunchScreen.storyboard in Resources */,
 				DDFC17B725A22C980053DCB3 /* Assets.xcassets in Resources */,
+				DDFC17E125A22DBB0053DCB3 /* data in Resources */,
 				DDFC17B225A22C960053DCB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
